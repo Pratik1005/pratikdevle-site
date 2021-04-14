@@ -1,9 +1,8 @@
 # pratikdevle portfolio
 
-Hey! Welcome to my portfolio. It's coming soon.
+Hey! Welcome to my portfolio.
 
-For now I know:
+I have created this portfolio using HTML & CSS.
+Added projects and blogs.
 
-1. JavaScript
-1. Repl.it
-1. Html,Css
+I wil keep on updating my portfolio after completing projects.
