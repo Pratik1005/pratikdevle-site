@@ -13,9 +13,16 @@ body {
   position: relative;
 }
 
+.App {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 p {
   font-size: 1.5rem;
 }
+
+/* Navigation menu */
 
 .nav-menu {
   background-color: rgba(23, 25, 35, 0.7);
@@ -38,12 +45,13 @@ p {
   font-size: 1.2rem;
 }
 
+/* Hero section */
 .hero-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10rem;
+  margin-top: 11rem;
 }
 
 .hero-text h1 {
@@ -69,4 +77,51 @@ p {
   font-size: 4rem;
   font-weight: 400;
   text-align: center;
+  padding: 2rem 0 1rem;
+}
+
+/* Projects */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.projects {
+  overflow: hidden;
+}
+
+.project-slide {
+  animation: 12s slide linear infinite;
+  white-space: nowrap;
+}
+
+.project-slide:hover {
+  animation-play-state: paused;
+}
+
+.projects .project-img {
+  width: 500px;
+  height: 280px;
+  margin: 1rem;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.primary-btn {
+  background-color: #fff;
+  color: #171923;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
 }
