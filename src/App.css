@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #171923;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.hero-text h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.hero-text h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.hero-text p {
+  text-align: center;
+  margin: 2rem 0 3rem;
+  width: 600px;
+}
+
+.section-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+}
