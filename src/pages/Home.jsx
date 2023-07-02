@@ -2,6 +2,7 @@ import {NavMenu} from "../components/NavMenu";
 import {HeroText} from "../components/HeroText";
 import {Project} from "../components/Project";
 import {Footer} from "../components/Footer";
+import {Blog} from "../components/Blog";
 
 export const Home = () => {
   return (
@@ -9,9 +10,7 @@ export const Home = () => {
       <NavMenu />
       <HeroText />
       <Project />
-      <section>
-        <h2 className="section-title">Blogs</h2>
-      </section>
+      <Blog />
       <Footer />
     </div>
   );
