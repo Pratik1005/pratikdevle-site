@@ -63,18 +63,63 @@ p {
   font-family: "Libre Baskerville", serif;
   font-size: 6rem;
   font-weight: 400;
+  animation-name: heading;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: relative;
+  opacity: 0;
+  top: -1rem;
+}
+
+@keyframes heading {
+  0% {
+    opacity: 0;
+    top: -1rem;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
 }
 
 .hero-text h2 {
   font-family: "Libre Baskerville", serif;
   font-size: 4rem;
   font-weight: 400;
+  opacity: 0;
+  animation-name: sub-heading;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes sub-heading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .hero-text p {
   text-align: center;
   margin: 2rem 0 3rem;
   width: 600px;
+  opacity: 0;
+  animation-name: sub-text;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes sub-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .section-title {
@@ -97,6 +142,11 @@ p {
 
 .projects {
   overflow: hidden;
+  opacity: 0;
+  animation-name: sub-text;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .project-slide {
@@ -145,6 +195,14 @@ p {
 }
 
 /* Blogs */
+.blog-section {
+  opacity: 0;
+  animation-name: sub-text;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
 .blog-ctn {
   display: flex;
   justify-content: center;
@@ -192,6 +250,31 @@ p {
 .bio-img {
   width: 100%;
   border-radius: 8px;
+  opacity: 0;
+  animation-name: bio-image;
+  animation-duration: 1s;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes bio-image {
+  0% {
+    opacity: 0;
+    left: -50px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.bio-right {
+  opacity: 0;
+  animation-name: sub-text;
+  animation-duration: 1s;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
 }
 
 .bio-data .bio-title {
@@ -212,6 +295,11 @@ p {
   margin: 0 3rem;
   border-radius: 8px;
   overflow: hidden;
+  opacity: 0;
+  animation-name: sub-text;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .photo-ctn .gallery-img {
@@ -227,6 +315,12 @@ p {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   text-align: center;
+  position: relative;
+  opacity: 0;
+  top: -1rem;
+  animation-name: heading;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .project-ctn {
@@ -234,6 +328,11 @@ p {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   gap: 2rem;
+  opacity: 0;
+  animation-name: sub-text;
+  animation-duration: 1s;
+  animation-delay: 500ms;
+  animation-fill-mode: forwards;
 }
 
 .project-card {
@@ -393,6 +492,14 @@ p {
 
   .photo-ctn {
     grid-template-columns: 1fr;
+    margin: 0 1rem;
+    justify-items: center;
+  }
+
+  .photo-ctn .gallery-img {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
   }
 
   /* Projects*/

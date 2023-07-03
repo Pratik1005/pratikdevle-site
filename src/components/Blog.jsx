@@ -23,7 +23,7 @@ const blogData = [
 
 export const Blog = () => {
   return (
-    <section>
+    <section className="blog-section">
       <h2 className="section-title">Blogs</h2>
       <div className="blog-ctn">
         {blogData.map((item, index) => (

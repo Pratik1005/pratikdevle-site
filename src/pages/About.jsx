@@ -19,7 +19,7 @@ export const About = () => {
         <div>
           <img src={pratik} alt="Pratik" className="bio-img" />
         </div>
-        <div>
+        <div className="bio-right">
           <h3 className="bio-title">
             I'm a Frontend Enginner from Mumbai, India.
           </h3>
