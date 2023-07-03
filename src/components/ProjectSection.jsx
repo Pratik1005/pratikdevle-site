@@ -6,7 +6,7 @@ import finQuiz from "../assets/quiz-app.png";
 import liteSpeed from "../assets/component-library.png";
 import {NavLink} from "react-router-dom";
 
-export const Project = () => {
+export const ProjectSection = () => {
   return (
     <section className="projects">
       <h2 className="section-title">Projects</h2>

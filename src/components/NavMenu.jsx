@@ -18,9 +18,9 @@ export const NavMenu = () => {
         Projects
       </NavLink>
 
-      <NavLink to="/contact" style={getActiveStyle} className="nav-link">
+      <a href="#contact" className="nav-link">
         Contact
-      </NavLink>
+      </a>
     </nav>
   );
 };

@@ -4,7 +4,7 @@ export const Footer = () => {
   const getDay = () => new Date().toLocaleString("en-us", {weekday: "long"});
   return (
     <footer className="footer-ctn">
-      <h3 className="footer-text">
+      <h3 id="contact" className="footer-text">
         Stay positive and have a great {getDay()}!
       </h3>
       <div className="footer-links">
