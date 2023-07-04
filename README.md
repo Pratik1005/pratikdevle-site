@@ -2,7 +2,7 @@
 
 Hey! Welcome to my portfolio.
 
-I have created this portfolio using HTML & CSS.
-Added projects and blogs.
+I have created this portfolio using React.
+Added about, projects and blogs.
 
-I wil keep on updating my portfolio after completing projects.
+I will keep on updating my portfolio with my learnings and projects!
