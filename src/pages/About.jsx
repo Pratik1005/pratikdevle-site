@@ -39,7 +39,7 @@ export const About = () => {
           <img
             key={index}
             src={item}
-            alt="gallery image"
+            alt="gallery collection"
             className="gallery-img"
           />
         ))}
